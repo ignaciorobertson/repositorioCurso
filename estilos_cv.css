@@ -4,25 +4,24 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: rgb(98, 122, 98); 
+    background: rgb(56, 56, 56); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cv {
     width: 210mm;   
     height: 170mm;  
-    background: rgb(180, 225, 180); 
+    background: rgb(246, 250, 233); 
 }
 
 h1 {
-	background-color: rgb(142, 190, 142);
-	color: rgb(0, 77, 0);
-	text-align: center;
+	color: rgb(168, 168, 168);
+	text-align: left;
     font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
-	background-color: rgb(180, 225, 180);
-	color: rgb(0, 51, 0);
+	color: rgb(12, 12, 12);
 	text-align: left;
 }
 
@@ -35,18 +34,25 @@ img {
 }
 
 div {
-	background-color: rgb(211, 243, 216);
+	background-color: rgb(249, 250, 239);
 }
 
 p {
-	font-style: italic;
     font-weight: bold;
     margin-right: 40px;
     text-align: justify;
 }
 
+.contacto {
+    font-weight: normal;
+    padding-left: 20px;
+    text-align: left;
+    margin-right: -40px;
+    font-size: small;
+}
+
 ul {
-    background-color: rgb(211, 243, 216);
+    background-color:  rgb(249, 250, 239);
     list-style-type: square;
     margin-left: 20px;    
     margin-bottom: 20px;     
@@ -60,11 +66,8 @@ li {
 }
 
 h3 {
-    color: rgb(63, 129, 63);
+    color: rgb(95, 95, 95);
     text-align: left;
-    font-weight: bold;
-    font-size: large;
-    font-style: italic;
     margin-left: 20px;
 }
 
@@ -76,8 +79,11 @@ a {
 .container {
     display: grid;
     gap: 20px;                
-    grid-template-columns: 1fr 4fr; 
+    /* grid-template-columns: 1fr 4fr;  */
+    grid-template-columns: 2fr 5fr; 
+
     }
     .col {
     flex: 1;
+
     }
