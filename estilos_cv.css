@@ -18,19 +18,30 @@ h1 {
 	color: rgb(168, 168, 168);
 	text-align: left;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 35px;
 }
+
 
 h2 {
 	color: rgb(12, 12, 12);
 	text-align: left;
+    margin-top: -20;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
 }
 
 img {
     border-radius: 50%;
 	width: 80%;
     margin-top: 20px;
-	margin-left: 27px;
-    background-color:  rgb(180, 225, 180);
+	margin-left: 30px;
+    border: 7px solid #d1d1d1;
+
+}
+
+br {
+    font-size: small;
 }
 
 div {
@@ -38,10 +49,18 @@ div {
 }
 
 p {
-    font-weight: bold;
     margin-right: 40px;
     text-align: justify;
+
 }
+
+.datos_personales {
+    padding-left: 30px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
 
 .contacto {
     font-weight: normal;
@@ -54,8 +73,19 @@ p {
 ul {
     background-color:  rgb(249, 250, 239);
     list-style-type: square;
-    margin-left: 20px;    
-    margin-bottom: 20px;     
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.listaexperiencia {
+    margin-right: 20px;
+    list-style-type: square;
+    background-color:  rgb(249, 250, 239);
+}
+.educont{
+    margin-right: 20px;
+    list-style-type: square;
+    background-color:  rgb(249, 250, 239);
 }
 
 li {
@@ -69,6 +99,11 @@ h3 {
     color: rgb(95, 95, 95);
     text-align: left;
     margin-left: 20px;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 a {
