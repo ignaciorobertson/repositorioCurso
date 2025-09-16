@@ -119,9 +119,5 @@ a {
     display: grid;
     gap: 20px;                
     grid-template-columns: 2fr 5fr; 
+}
 
-    }
-    .col {
-    flex: 1;
-
-    }
