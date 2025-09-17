@@ -4,14 +4,17 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: rgb(56, 56, 56); 
+    /* background: rgb(56, 56, 56); */
+    background: linear-gradient( 90deg, rgb(175, 167, 243) 0%, rgb(163, 189, 178) 100%); 
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cv {
     width: 210mm;   
     height: 170mm;  
-    background: rgb(246, 250, 233); 
+    background: linear-gradient( 90deg, rgb(196, 255, 2) 0%, rgba(255, 255, 255, 1) 100%); 
+    /* background: rgb(246, 250, 233);  */
 }
 
 h1 {
@@ -77,11 +80,6 @@ ul {
     margin-bottom: 20px;
 }
 
-.listaexperiencia {
-    margin-right: 20px;
-    list-style-type: square;
-    background-color:  rgb(249, 250, 239);
-}
 .educont{
     margin-right: 20px;
     list-style-type: square;
@@ -121,3 +119,65 @@ a {
     grid-template-columns: 2fr 5fr; 
 }
 
+
+/*  */
+/* -------------------  PASAR POR ARRIBA A CONT  ----------------------- */
+/*  */
+
+.listaexperiencia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  list-style: none; 
+  margin-right: 10px;
+  margin-left: 50px;
+  background-color: rgb(249, 250, 239);
+}
+
+.listaexperiencia li {
+  list-style: none;
+}
+
+.item-box {
+  width: 180px;
+  height: 180px;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 80px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 3s ease;
+}
+
+.item-box .icono {
+  font-size: 40px;
+  color: #555;
+  transition: opacity 0.3s ease;
+  background-color: white
+}
+
+.item-box .texto {
+  opacity: 0;
+  position: absolute;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+  font-size: 12px;
+  color: #333;
+}
+
+
+.item-box:hover .icono {
+  opacity: 0;
+}
+
+.item-box:hover .texto {
+  opacity: 1;
+}
