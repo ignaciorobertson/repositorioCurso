@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient( 90deg, rgb(240, 243, 252) 0%, rgb(163, 189, 178) 100%);
+    background: linear-gradient( 90deg, rgb(223, 236, 191) 0%, rgb(163, 189, 178) 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -15,16 +15,17 @@ body {
 }
 
 h1 {
-    color: rgb(168, 168, 168);
+    color: rgb(123, 170, 151);
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;  font-weight: 400;
+    font-style: normal;
     font-size: 35px;
-    text-shadow: 5px 11px 4px rgba(0, 0, 0, 0.19);
+    text-shadow: 3px 6px 15px rgba(0, 0, 0, 0.19);
 }
 
 h2 {
-    color: rgb(12, 12, 12);
+    color: rgb(123, 170, 151);
     text-align: left;
     margin-top: -20;
     font-family: 'Courier New', Courier, monospace;
@@ -51,12 +52,14 @@ div {
 p {
     margin-right: 40px;
     text-align: justify;
+        color: rgb(71, 99, 88);
 }
 
 .datos_personales {
     padding-left: 30px;
     text-align: center;
     font-weight: lighter;
+    color: rgb(123, 170, 151);
 }
 
 .contacto {
@@ -72,6 +75,7 @@ ul {
     list-style-type: square;
     margin-left: 20px;
     margin-bottom: 20px;
+    color: rgb(71, 99, 88);
 }
 
 .educont {
@@ -88,7 +92,7 @@ li {
 }
 
 h3 {
-    color: rgb(95, 95, 95);
+    color: rgb(123, 170, 151);
     text-align: left;
     margin-left: 20px;
 }
@@ -156,10 +160,10 @@ a {
 }
 
 .item-box .icono {
-    font-size: 40px;
-    color: #555;
+    font-size: 60px;
+            color: rgb(104, 160, 102);
     transition: opacity 0.3s ease;
-    background-color: white
+    background-color: white;
 }
 
 .item-box .texto {
