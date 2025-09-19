@@ -1,32 +1,31 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient( 90deg, rgb(240, 243, 252) 0%, rgb(163, 189, 178) 100%); 
-
+    background: linear-gradient( 90deg, rgb(240, 243, 252) 0%, rgb(163, 189, 178) 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cv {
-    width: 210mm;   
-    height: 170mm;  
-
+    width: 210mm;
+    height: 170mm;
 }
 
 h1 {
-	color: rgb(168, 168, 168);
-	text-align: left;
+    color: rgb(168, 168, 168);
+    text-align: left;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: 35px;
+    text-shadow: 5px 11px 4px rgba(0, 0, 0, 0.19);
 }
 
-
 h2 {
-	color: rgb(12, 12, 12);
-	text-align: left;
+    color: rgb(12, 12, 12);
+    text-align: left;
     margin-top: -20;
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
@@ -34,11 +33,11 @@ h2 {
 
 img {
     border-radius: 50%;
-	width: 80%;
+    width: 80%;
     margin-top: 20px;
-	margin-left: 30px;
+    margin-left: 30px;
     border: 7px solid #d1d1d1;
-
+    box-shadow: 5px 5px 7px grey;
 }
 
 br {
@@ -46,22 +45,19 @@ br {
 }
 
 div {
-	background-color: rgb(249, 250, 239);
+    background-color: rgb(249, 250, 239);
 }
 
 p {
     margin-right: 40px;
     text-align: justify;
-
 }
 
 .datos_personales {
     padding-left: 30px;
     text-align: center;
     font-weight: lighter;
-
 }
-
 
 .contacto {
     font-weight: normal;
@@ -72,16 +68,16 @@ p {
 }
 
 ul {
-    background-color:  rgb(249, 250, 239);
+    background-color: rgb(249, 250, 239);
     list-style-type: square;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-.educont{
+.educont {
     margin-right: 20px;
     list-style-type: square;
-    background-color:  rgb(249, 250, 239);
+    background-color: rgb(249, 250, 239);
 }
 
 li {
@@ -113,70 +109,73 @@ a {
 
 .container {
     display: grid;
-    gap: 20px;                
-    grid-template-columns: 2fr 5fr; 
+    gap: 20px;
+    grid-template-columns: 2fr 5fr;
 }
 
 
 /*  */
+
+
 /* -------------------  PASAR POR ARRIBA A CONT  ----------------------- */
+
+
 /*  */
 
 .listaexperiencia {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  padding: 0;
-  list-style: none; 
-  margin-right: 10px;
-  margin-left: 50px;
-  background-color: rgb(249, 250, 239);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 50px;
+    background-color: rgb(249, 250, 239);
 }
 
 .listaexperiencia li {
-  list-style: none;
+    list-style: none;
 }
 
 .item-box {
-  width: 180px;
-  height: 180px;
-  background: white;
-  border: 2px solid #ccc;
-  border-radius: 80px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all 1s ease;
+    width: 180px;
+    height: 180px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 80px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 1s ease;
 }
 
 .item-box .icono {
-  font-size: 40px;
-  color: #555;
-  transition: opacity 0.3s ease;
-  background-color: white
+    font-size: 40px;
+    color: #555;
+    transition: opacity 0.3s ease;
+    background-color: white
 }
 
 .item-box .texto {
-  opacity: 0;
-  position: absolute;
-  padding: 10px;
-  transition: opacity 0.3s ease;
-  font-size: 12px;
-  color: #333;
-  background-color: white;
+    opacity: 0;
+    position: absolute;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+    font-size: 12px;
+    color: #333;
+    background-color: white;
 }
 
-
 .item-box:hover .icono {
-  opacity: 0;
+    opacity: 0;
 }
 
 .item-box:hover .texto {
-  opacity: 1;
+    opacity: 1;
 }
