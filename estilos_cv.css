@@ -23,6 +23,11 @@ h1 {
     font-size: 35px;
     text-shadow: 3px 6px 15px rgba(0, 0, 0, 0.19);
 }
+h1:hover {
+    color: rgb(100, 100, 100);
+    transition: color 2s ease;
+    
+}
 
 h2 {
     color: rgb(123, 170, 151);
@@ -39,6 +44,11 @@ img {
     margin-left: 30px;
     border: 7px solid #d1d1d1;
     box-shadow: 5px 5px 7px grey;
+}
+
+img:hover {
+    box-shadow: 10px 10px 20px grey;
+    transition: box-shadow 1.5s ease;
 }
 
 br {
