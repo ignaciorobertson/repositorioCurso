@@ -1,0 +1,164 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: #ece5d3;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  border-radius: 30%;
+  border-width: 20px;
+  border-color: #552133;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra verticalmente h1 y h2 */
+}
+
+header h1 {
+  color: #615538;
+  font-size: 60px;
+  font-weight: 400;
+  padding-top: 0;
+  font-style: italic;
+  margin: 0;
+  position: relative;
+  bottom: 10px;
+}
+
+header h2 {
+  color: #b9b02e;
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  left: 170px;
+}
+
+
+nav{
+    background-color: #8b8961;
+    margin-bottom: 20px;
+}   
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}   
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 6px; 
+    display: block; 
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: #737556;
+}
+
+nav ul li a.activo{
+    background-color: #dfd796;
+}
+
+footer{
+    background-color: #8b8961;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* SECCIÓN MAIN */
+
+main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 11px;
+}
+
+main h2 {
+    color: #615538;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ece5d3;
+    padding: 16px;
+    border-radius: 15%;
+    }
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: rgb(146, 146, 134);
+    display: block;
+    border-radius: 15%;
+
+}
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15%;
+    background-color: rgb(146, 146, 134);
+    display: block;
+    margin: 12px 0 ;
+}
+/* FIN SECCIÓN MAIN  */
