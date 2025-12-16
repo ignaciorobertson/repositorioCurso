@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"ctas\": \"page-module___8aEwW__ctas\",\n  \"intro\": \"page-module___8aEwW__intro\",\n  \"logo\": \"page-module___8aEwW__logo\",\n  \"main\": \"page-module___8aEwW__main\",\n  \"page\": \"page-module___8aEwW__page\",\n  \"primary\": \"page-module___8aEwW__primary\",\n  \"secondary\": \"page-module___8aEwW__secondary\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Usuario/Desktop/REPO%20CURSO%20REACT%20UTNBA/modulo%201/repositorioCurso/m4u1/reactcursoutn/src/app/page.js"],"sourcesContent":["import styles from \"./page.module.css\";\n\nexport default function Home() {\n  return (\n    <div className={styles.page}>\n      <h1>Hola Next.js desde mi primera clase</h1>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAW,yIAAM,CAAC,IAAI;kBACzB,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGV"}}]
+}
