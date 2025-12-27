@@ -1,0 +1,136 @@
+[00:00:01.751] Server  LOG      ✓ Ready in 1082ms
+[00:00:06.679] Server  ERROR    ⨯ ./src/components/mayus.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+
+
+[00:00:08.176] Browser ERROR   uncaughtError: Error: ./src/components/mayus.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+
+
+[00:00:08.447] Browser ERROR   ./src/components/mayus.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+[00:00:08.447] Browser ERROR   ./src/components/mayus.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+[00:00:08.584] Browser ERROR   ./src/components/mayus.js:1:10
+Ecmascript file had an error
+> 1 | import { useState } from "react";
+    |          ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+[00:00:53.171] Browser ERROR   ./src/components/mayus.js:1:17
+Ecmascript file had an error
+> 1 | import React, { useState } from "react";
+    |                 ^^^^^^^^
+  2 |
+  3 | export function Mayus() {
+  4 |   const [texto, setTexto] = useState("");
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./src/components/mayus.js
+    ./src/app/page.js
+[00:01:48.790] Browser ERROR   ./src/app/page.js:48:22
+Parsing ecmascript source code failed
+  46 |       <hr />
+  47 |       <h3>Ejemplo de Luz</h3>
+> 48 |       <BotonLuz /> */}
+     |                      ^
+  49 |       <hr />
+  50 |       <Mayus />
+  51 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:04:14.676] Browser ERROR   ./src/app/page.js:26:35
+Parsing ecmascript source code failed
+  24 | export default function Home() {
+  25 |   return (
+> 26 |     <div style={{ borderRadius: 15px, padding: 20 }} >
+     |                                   ^
+  27 |
+  28 |       <hr />
+  29 |       <Mayus />
+
+Identifier cannot follow number
+[00:16:58.790] Server  LOG      ✓ Compiled in 14ms
+[00:17:30.327] Server  LOG      ✓ Compiled in 5ms
+[00:17:37.339] Server  LOG      ✓ Compiled in 6ms
+[00:17:51.001] Server  LOG      ✓ Compiled in 6ms
+[00:17:54.238] Server  LOG      ✓ Compiled in 5ms
+[00:17:58.920] Server  LOG      ✓ Compiled in 5ms
+[00:24:13.733] Server  LOG      ✓ Compiled in 63ms
+[00:42:48.586] Server  LOG      ✓ Compiled in 5ms
+[00:44:51.672] Server  LOG      ✓ Compiled in 5ms

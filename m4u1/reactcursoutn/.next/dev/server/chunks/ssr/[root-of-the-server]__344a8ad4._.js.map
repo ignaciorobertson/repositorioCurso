@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Usuario/Desktop/REPO%20CURSO%20REACT%20UTNBA/modulo%201/repositorioCurso/m4u1/reactcursoutn/src/components/tituloPrincipal.js"],"sourcesContent":["export function TituloPrincipal(props) {\r\n\r\n    return (\r\n        <header style={{ backgroundColor : '#c2c2c2ff', padding: '10px'}}>\r\n            <h1>{props.titulo}</h1>\r\n        </header>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAO,SAAS,gBAAgB,KAAK;IAEjC,qBACI,8OAAC;QAAO,OAAO;YAAE,iBAAkB;YAAa,SAAS;QAAM;kBAC3D,cAAA,8OAAC;sBAAI,MAAM,MAAM;;;;;;;;;;;AAG7B"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Usuario/Desktop/REPO%20CURSO%20REACT%20UTNBA/modulo%201/repositorioCurso/m4u1/reactcursoutn/src/app/page.js"],"sourcesContent":["import { TituloPrincipal } from \"@/components/tituloPrincipal\";\n\nconst titulo2 = 'Aprendemos next'\n\nexport default function Home() {\n  return (\n    <div>\n      <h2>Ejemplos de props</h2>\n      {/* componente simple y qeue ademas lo puedo reutilizar varias veces */}\n      <TituloPrincipal titulo=\"Este es el titulo principal de la pagina\" />\n      <TituloPrincipal titulo={titulo2} />\n      <hr />\n\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,UAAU;AAED,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC,uJAAe;gBAAC,QAAO;;;;;;0BACxB,8OAAC,uJAAe;gBAAC,QAAQ;;;;;;0BACzB,8OAAC;;;;;;;;;;;AAIP"}}]
+}
