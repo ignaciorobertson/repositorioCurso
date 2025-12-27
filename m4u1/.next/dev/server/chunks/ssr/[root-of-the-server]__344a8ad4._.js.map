@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Nachoo/Desktop/DIPLOMATURA%20REACT/Directorio%20GIT/m4u1/src/components/tituloPrincipal.js"],"sourcesContent":["export function TituloPrincipal(props) {\r\n  return (\r\n    <header style={{ backgroundColor: '#c2c2c2ff', padding: '10px' }}>\r\n      <h1> {props.titulo} </h1>{' '}\r\n    </header>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAO,SAAS,gBAAgB,KAAK;IACnC,qBACE,8OAAC;QAAO,OAAO;YAAE,iBAAiB;YAAa,SAAS;QAAO;;0BAC7D,8OAAC;;oBAAG;oBAAE,MAAM,MAAM;oBAAC;;;;;;;YAAO;;;;;;;AAGhC"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Nachoo/Desktop/DIPLOMATURA%20REACT/Directorio%20GIT/m4u1/src/app/page.js"],"sourcesContent":["import { TituloPrincipal } from '@/components/tituloPrincipal';\n\nconst titulo2 = 'aprendemos next';\n\nexport default function Home() {\n  return (\n    <div>\n      <h2> Ejemplos props </h2> {/ * componente simple que permite reutilizar * /}{' '}\n      <TituloPrincipal titulo=\"Hola curso\" />\n      <TituloPrincipal titulo={titulo2} />{' '}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,UAAU;AAED,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;YAAqB;YAAE;YAAkD;0BAC7E,8OAAC,uJAAe;gBAAC,QAAO;;;;;;0BACxB,8OAAC,uJAAe;gBAAC,QAAQ;;;;;;YAAY;;;;;;;AAG3C"}}]
+}

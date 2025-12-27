@@ -1,0 +1,641 @@
+[00:00:01.174] Server  LOG      ✓ Ready in 753ms
+[00:02:18.923] Browser ERROR   ./src/app/layout.js:14:16
+Parsing ecmascript source code failed
+  12 |         <
+  13 |         body > { children } <
+> 14 |         /body> <
+     |                ^
+  15 |         /html>
+  16 |     );
+  17 | }
+
+Expression expected
+[00:02:18.923] Browser ERROR   ./src/app/layout.js:15:9
+Parsing ecmascript source code failed
+  13 |         body > { children } <
+  14 |         /body> <
+> 15 |         /html>
+     |         ^^^^^^
+  16 |     );
+  17 | }
+
+Unterminated regexp literal
+[00:02:19.878] Browser ERROR   ./src/app/layout.js:14:16
+Parsing ecmascript source code failed
+  12 |         <
+  13 |         body > { children } <
+> 14 |         /body> <
+     |                ^
+  15 |         /html>
+  16 |     );
+  17 | }
+
+Expression expected
+[00:02:19.878] Browser ERROR   ./src/app/layout.js:15:9
+Parsing ecmascript source code failed
+  13 |         body > { children } <
+  14 |         /body> <
+> 15 |         /html>
+     |         ^^^^^^
+  16 |     );
+  17 | }
+
+Unterminated regexp literal
+[00:04:02.001] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:04:02.001] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:04:02.230] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:04:02.231] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:07:54.227] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:07:54.227] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:07:55.148] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:07:55.148] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:12.772] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:12.772] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:13.673] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:13.673] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:24.577] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:24.577] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:24.738] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:24.738] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:29.303] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:29.303] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:30.223] Browser ERROR   ./src/app/layout.js:12:38
+Parsing ecmascript source code failed
+  10 |         html lang = "en" >
+  11 |         <
+> 12 |         body > { children } < /body> <
+     |                                      ^
+  13 |         /html>
+  14 |     );
+  15 | }
+
+Expression expected
+[00:08:30.223] Browser ERROR   ./src/app/layout.js:13:9
+Parsing ecmascript source code failed
+  11 |         <
+  12 |         body > { children } < /body> <
+> 13 |         /html>
+     |         ^^^^^^
+  14 |     );
+  15 | }
+
+Unterminated regexp literal
+[00:08:33.112] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:08:33.113] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:08:33.783] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:08:33.783] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:14:13.931] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:14:13.931] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:14:14.516] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:14:14.516] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:28:50.624] Server  ERROR   C:\Users\Nachoo\Desktop\DIPLOMATURA REACT\Directorio GIT\m4u1\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:50.627] Server  ERROR    ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>} {</>} </div>
+               ^^^^^^^^
+[00:28:50.654] Server  ERROR   C:\Users\Nachoo\Desktop\DIPLOMATURA REACT\Directorio GIT\m4u1\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:28:50.655] Server  ERROR    ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>} {</>} </div>
+               ^^^^^^^^
+[00:28:50.782] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>} {</>} </div>
+               ^^^^^^^^
+[00:28:51.702] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>} {</>} </div>
+               ^^^^^^^^
+[00:32:21.486] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:32:21.486] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:32:22.400] Browser ERROR   In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s html 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <body>
+>                         {" "}
+                  ...
+
+[00:32:22.400] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body>
+                            <OuterLayoutRouter>
++                           {" "}
+-                           {"  "}
+                          ...
+                  ...
+
+[00:37:27.727] Server  ERROR   C:\Users\Nachoo\Desktop\DIPLOMATURA REACT\Directorio GIT\m4u1\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:37:27.728] Server  ERROR    ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>}{</>} </div>
+               ^^^^^^^^
+[00:37:27.754] Server  ERROR   C:\Users\Nachoo\Desktop\DIPLOMATURA REACT\Directorio GIT\m4u1\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:37:27.755] Server  ERROR    ⨯ Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>}{</>} </div>
+               ^^^^^^^^
+[00:37:27.876] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>}{</>} </div>
+               ^^^^^^^^
+[00:37:27.943] Browser ERROR   uncaughtError: Error: Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported.
+  <div>{<h2/>} {RegExp} {</>}{</>} </div>
+               ^^^^^^^^
