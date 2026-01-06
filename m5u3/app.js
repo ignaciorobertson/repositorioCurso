@@ -60,12 +60,13 @@ app.use('/users', usersRouter);
 
 // select de prueba a la base de datos
 
+
 //DELETE A LA BASE DE DATOS
 
-var id = 22;
-pool.query('delete from empleados where id_emp = ?',[id]).then(function(resultados){
-  console.log(resultados);
-});
+// var id = 22;
+// pool.query('delete from empleados where id_emp = ?',[id]).then(function(resultados){
+//   console.log(resultados);
+// });
 
 
 // SELECT A LA BASE DE DATOS
